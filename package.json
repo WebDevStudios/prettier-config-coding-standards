@@ -1,6 +1,6 @@
 {
   "name": "@webdevstudios/prettier-config-coding-standards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dynamic Configuration Loader for WebDevStudios JavaScript, PHP, and CSS Coding Standards. ",
   "main": "index.js",
   "scripts": {
