@@ -10,7 +10,7 @@ This package gets installed automatically when you install any of the WebDevStud
 
 ## How to Install
 
-Install [`webdevstudios/css-coding-standards`](https://github.com/WebDevStudios/css-coding-standards), [`webdevstudios/js-coding-standards`](https://github.com/WebDevStudios/js-coding-standards), or [`webdevstudios/php-coding-standards`](https://github.com/WebDevStudios/php-coding-standards) and this package will be included automatically.
+Install [`@webdevstudios/css-coding-standards`](https://github.com/WebDevStudios/css-coding-standards), [`@webdevstudios/js-coding-standards`](https://github.com/WebDevStudios/js-coding-standards), or [`webdevstudios/php-coding-standards`](https://github.com/WebDevStudios/php-coding-standards) and this package will be included automatically.
 
 ## Changelog
 
