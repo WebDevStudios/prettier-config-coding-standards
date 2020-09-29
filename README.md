@@ -1,6 +1,6 @@
 <a href="https://webdevstudios.com/contact/"><img src="https://webdevstudios.com/wp-content/uploads/2018/04/wds-github-banner.png" alt="WebDevStudios. WordPress for big brands."></a>
 
-# Prettier Dynamic Configuration Loader for WebDevStudios [CSS](https://github.com/WebDevStudios/css-coding-standards), [JavaScript](https://github.com/WebDevStudios/js-coding-standards), and/or [PHP](https://github.com/WebDevStudios/PHP-coding-standards) Coding Standards
+# Dynamic Prettier Configuration Loader for WebDevStudios [CSS](https://github.com/WebDevStudios/css-coding-standards), [JavaScript](https://github.com/WebDevStudios/js-coding-standards), and/or [PHP](https://github.com/WebDevStudios/PHP-coding-standards) Coding Standards
 
 This package gets installed automatically when you install any of the WebDevStudios coding standard packages and will automatically configure prettier for you if you set `package.json`'s `prettier` setting to:
 

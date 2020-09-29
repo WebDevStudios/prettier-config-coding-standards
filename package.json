@@ -1,7 +1,7 @@
 {
   "name": "@webdevstudios/prettier-config-coding-standards",
   "version": "1.0.0",
-  "description": "Dymaic config loader for WebDevStudios JavaScript, PHP, and CSS Coding Standards. ",
+  "description": "Dynamic Configuration Loader for WebDevStudios JavaScript, PHP, and CSS Coding Standards. ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,7 +20,7 @@
     {
       "name": "Aubrey Portwood",
       "email": "code@aubreypwd.com",
-      "url": "http://webdevstudios.com"
+      "url": "http://aubreypwd.com"
     }
   ]
 }
