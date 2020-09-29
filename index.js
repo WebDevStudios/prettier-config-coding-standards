@@ -1,15 +1,30 @@
-/* eslint-disable */
-
-function tryAndRequire( module ) {
+/**
+ * Try and require module override data.
+ *
+ * @author Aubrey Portwood <aubrey@webdevstudios.com>
+ * @since  1.0.1
+ * @param  {string} module Module.
+ * @return {Object}        Config object.
+ */
+function loadOverrideFromModule( module ) {
 	try {
-		require( module );
+		return {
+			...require( module ).overrides[ 0 ],
+		};
 	} catch ( error ) {
-		// Fail gracefully.
+		return {
+			...{
+				files: '',
+				options: {},
+			},
+		};
 	}
 }
 
-module.export = {
-	...tryAndRequire( '@webdevstudios/prettier-config-js-coding-standards' ),
-	...tryAndRequire( '@webdevstudios/prettier-config-php-coding-standards' ),
-	...tryAndRequire( '@webdevstudios/prettier-config-css-coding-standards' ),
+module.exports = {
+	overrides: [
+		loadOverrideFromModule( '@webdevstudios/prettier-config-js-coding-standards' ),
+		loadOverrideFromModule( '@webdevstudios/prettier-config-php-coding-standards' ),
+		loadOverrideFromModule( '@webdevstudios/prettier-config-css-coding-standards' ),
+	],
 };
